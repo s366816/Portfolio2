@@ -1,0 +1,529 @@
+body {
+  background-color: #8487840b !important;
+  padding-top: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.left,.right {
+    background-color: white;
+    text-align: center;
+    padding: 20px ;
+    border-radius: 3px;   
+}
+.middle {
+    margin:0 15px;
+}
+.middle .header ,
+.middle .content {
+ background-color: white;
+ border-radius: 3px;
+}
+.middle .content {
+  min-height: 1000px;
+  
+}
+.middle .header  {
+    margin-bottom: 1px;
+}
+a {
+    text-decoration: none !important;
+}
+.search-input{
+  position: relative !important;
+    margin-bottom:15px;
+}
+.search-input input{
+  border: 1px solid #d6d4d4;
+  border-radius: 0px;   
+  width: 65%; 
+  transform: translateY(30%);
+  margin-right: 70px; 
+}
+.search-input i {
+  position: absolute;
+  right:0;
+  top: 79%;
+  transform: translateY(-40%);
+  display: inline-block;
+  width: 10px;
+  height: 110%;
+  line-height: 30px;
+  border-left: px solid #d6d4d4;
+  color: #030303;
+  margin-right: 79px;
+}
+.logo a {
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+  transition: 0.3s;
+  padding: 150px 0px;
+}
+.logo a:hover,
+.profile a:hover {
+    color:#bcebf1  
+}
+.profile a {
+  color:black;
+  position: relative;
+  top: 10px;
+  margin-left:-55px;
+}  
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+/* Month header */
+.month {
+  padding: 5px 10px;
+  width: 100%;
+  background: #4CAF50;
+  text-align: center;
+}
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+.month ul li {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 5px 0;
+  background-color:#ddd;
+}
+.weekdays li {
+    display: inline-block;
+    width: 11.6%;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  text-align: start;
+}
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 11.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+  margin-left:0.9px;
+  margin-right:0.9px
+}
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #4CAF50;
+  color: white !important;
+  border-radius: 50%;
+}
+.calendar_title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.calendar_title a {
+  color:black
+}
+.calendar_title a:hover {
+  color:black
+}
+.leftlinks {
+  list-style:none;
+  padding:0;
+  margin: 10px;
+}
+.leftlinks a {
+  color:#080808;
+  transition:0.3s
+}
+.leftlinks li {
+  background-color:  #f2f0f0;
+  margin-bottom:5px ;
+  padding:5px 0;
+  border-radius:30px;
+  border:1px solid #0a0a0a 
+}
+.leftlinks a:hover  {
+  color:#bcebf1
+}
+.header ,.mobile-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 9px;
+}
+.header .nav {
+  align-items: center;
+}
+.header .nav li {
+  margin: 0 2px; 
+}
+.header .nav li:not(:last-child) {
+  border-right: 1px solid #eee;
+}
+.header .nav li a {
+  position:relative;
+  color:black;
+  padding: 10px 8px ;
+  transition: 0.3s;
+}
+.header .nav li a:after {
+  content:"";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #27cb2c;
+  transition: 0.3s;
+}
+.header .nav li a:hover::after {
+  width: 100%;
+}
+.header .nav li a:hover {
+  color:#4caf50;
+}
+.logo-2 a {
+  color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.3s;
+    padding: 10px 0px ;
+}
+.logo-2 a:hover{
+    color:#4caf50
+}
+
+.form-select:focus {
+  border-color: #0a0a0a!important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #e2e2e2bd  !important;
+}
+.right .lists-title  {
+  margin: 10px 0 !important;
+    
+}
+.right .lists-title  a {
+  border-bottom: 1px solid #060606;
+  padding: 10px;
+  color: black;
+  transition: 0.3s;
+}
+.right .lists-title.active  a {
+
+  color: #0b0b0b;
+}
+.right .lists-title  a:hover {
+  color:#bcebf1
+}
+.right .list li:not(.cont){
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+.right .list li a {
+  color: black;
+}
+.right .lists-title-child  {
+  margin: 10px 0  !important;
+    
+}
+.right .lists-title-child  a {
+  padding: 10px;
+  color: #4CAF50 !important;
+  transition: 0.3s;
+}
+.right .lists-title-child  a:hover {
+  color:black !important;
+}
+#color-calendar {
+  --cal-color-primary: red;
+}
+.content h3  {
+  font-size: 23px;
+  background: #f2f0f0;
+  padding: 20px;
+  border-radius: 4px;
+  width: 180px;
+  border-radius: 1px;
+  height: 275px;
+  
+  text-align: center;
+}
+.content h3 span {
+  color: #090909;
+}
+.content ul li a {
+  color: black;
+  
+    font-size: 15px;
+}
+.content ul li {
+  margin-bottom: 5px;
+}
+.content ul li:not(:last-child) a {
+  border-bottom: 1px solid #eee;
+}
+.content ul {
+  margin-right: 20px !important;  
+}
+.footer{
+  background: #eee;
+    padding: 10px;
+    border-top: 1px solid #b5b5b5;
+    margin-top: 10px;
+}
+.footer .clfooter {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .clfooter li {
+  padding: 2px 7px;
+}
+.footer .clfooter li a {
+  color: black;
+  transition: 0.3s;
+}
+.footer .clfooter li a:hover {
+  color:#bcebf1
+}
+.dropbtn {
+  /*background-color: #04AA6D;*/
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height: 325px;
+  overflow-y: auto;
+}
+/* width */
+.dropdown-content::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+.dropdown-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.dropdown-content::-webkit-scrollbar-thumb {
+  background: #8f8d8d9f;
+  border-radius: 5px;
+}
+/* Handle on hover */
+.dropdown-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+/* CSS for screens larger than 1200px */
+@media only screen and (max-width: 1200px) {
+  /* Styles for screens smaller than 1200px here */
+  /* This could be your laptop or tablet styles */
+
+  .middle .content {
+    min-height: 800px;
+  }
+
+  .search-input input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .logo a {
+    font-size: 20px;
+  }
+
+  .header .nav li a {
+    padding: 5px 4px;
+  }
+
+  .logo-2 a {
+    font-size: 16px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+  }
+
+  .content ul li {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px here */
+  /* This could be your tablet or mobile styles */
+
+  .middle .content {
+    min-height: 600px;
+  }
+
+  .search-input input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .logo a {
+    font-size: 16px;
+  }
+
+  .header .nav li a {
+    padding: 5px 2px;
+  }
+
+  .logo-2 a {
+    font-size: 14px;
+  }
+
+  .content h3 {
+    font-size: 18px;
+  }
+
+  .content ul li {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens smaller than 480px here */
+  /* This could be your mobile styles */
+
+  .middle .content {
+    min-height: 400px;
+  }
+
+  .search-input input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .logo a {
+    font-size: 12px;
+  }
+
+  .header .nav li a {
+    padding: 5px 1px;
+  }
+
+  .logo-2 a {
+    font-size: 12px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .content ul li {
+    font-size: 8px;
+  }
+}
+
+/*media*/
+.mobile-header {
+ display: none ;
+}
+.menu-icon {
+  display: none;
+}
+@media(max-width: 1200px) {
+  .right{
+    display: none;
+  }
+  .left {
+    display: none;
+  }
+  .middle {
+    width: 100% !important;
+  }
+  .mobile-header {
+  
+  display:flex;justify-content: space-around; align-items:center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+}
+.header .search-input {
+  display: none;
+}
+.menu-icon {
+  display: block;
+}
+}
+.side_icon {
+  cursor: pointer;
+}
+.side-bar.active {
+  position: absolute;
+    left: 0px;
+    top: 0;
+    width: 230px;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    display: block;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+.side-bar {
+  display: none;
+}
+@media (max-width: 476px) {
+  .content h3 {
+    width: 100%;
+  }
+}
